@@ -50,8 +50,8 @@
 
 ### 24/08 - 11:00 as 13:00
 * BIT
-* Contest 05 (60 min)
+* Contest 05
 
 ### 31/08 - 11:00 as 13:00
-* Contest 06 (90 min) 
+* Contest 06
 	
