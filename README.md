@@ -1,4 +1,4 @@
-# programacao-competitiva-iesb
+# Programação Competitiva IESB
 Repositório dedicado as aulas e maratonas dos cursos para programação competitiva.
 
 ## Turma 01 - 2019.2
