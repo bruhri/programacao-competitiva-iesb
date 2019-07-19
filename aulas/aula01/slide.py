@@ -10,19 +10,19 @@ bar and slide numbers.
 import sys
 
 from beampy import *
-from bokeh.plotting import figure as bokfig, show
+from graficos import campeoes_brasileiros
 
 doc = document(theme="maratonaiesb")
 
 with slide():
     maketitle(lesson='Aula 01', author='Rodrigo G. Araújo',  date='24/07/2019')
 
-with slide('Programação Competitiva 01/04'):
+with slide('Programação Competitiva'):
     with group(x='center', y='auto', width=400) as g1:
         text('Resolver problemas de Ciência da Computação conhecidos, o mais rápido possível.')
         text(r'Steven \& Felix Halim (2010)', y='+1cm', size=17, color='#F6B801')
 
-with slide('Programação Competitiva 02/04'):
+with slide('Programação Competitiva'):
     with group(x=0.15, y='auto', width=400) as g2:
         itemize(['Todos os problemas contem souluções existentes',
             'A velocidade caracteriza a competição',
@@ -30,13 +30,13 @@ with slide('Programação Competitiva 02/04'):
             'Trabalho em equipe'
             ], width=600)
 
-with slide('Programação Competitiva 03/04'):
+with slide('Programação Competitiva'):
     with group(x='center', y='auto', width=400) as g1:
         text('''Competitive programming combines two topics: (1) the design of algorithms and 
                     (2) the implementation of algothms''')
         text(r'Antti Laaksonen (2018)', y='+1cm', size=17, color='#F6B801')
         
-with slide('Programação Competitiva 04/04'):
+with slide('Programação Competitiva'):
     with group(x=0.15, y='auto', width=400) as g2:
         itemize(['Resolução de problemas e pensamento matemático',
             'Combinação de técnicas conhecidas',
@@ -44,7 +44,7 @@ with slide('Programação Competitiva 04/04'):
             'Habilidade em programação',
             ], width=600)
 
-with slide('Regras da Maratona 01/02'):
+with slide('Regras da Maratona'):
     with group(x='center', y='auto', width=400) as g1:
         text('ACM ICPC', size=40)
 
@@ -56,7 +56,7 @@ with slide('Regras da Maratona 01/02'):
             '8 a 14 problemas em 5 horas',
             ], width=600)
 
-with slide('Regras da Maratona 02/02'):
+with slide('Regras da Maratona'):
     with group(x='center', y='auto', width=400) as g1:
         text('Critérios de Vitória', size=40)
 
@@ -70,19 +70,11 @@ with slide('Regras da Maratona 02/02'):
             ], width=600)
 
 with slide('Campeões Mundiais'):
-    times = ['USA', 'Russia', 'China', 'Polônia', 'Canadá', 'República Checha', 'Alemanha', 'Australia', 'Nova Zelândia']
-    titulos = [17, 14, 4, 2, 2, 1, 1, 1, 1]
-    grafico = bokfig(height=400, width=600, x_range=times)
-    grafico.vbar(x=times, top=titulos, width=0.9)
-    figure(grafico, width=600)
+    figure('aulas/img/campeoes_mundiais.png', width=700)
     text("Brasil conseguiu 13º lugar no mundial em 2005 com a USP")
 
 with slide('Campeões Brasileiros'):
-    times = ['UNICAMP', 'PUC-RJ', 'UFPE', 'FURG', 'USP', 'ITA']
-    titulos = [3, 2, 9, 1, 5, 3]
-    grafico = bokfig(height=400, width=600, x_range=times)
-    grafico.vbar(x=times, top=titulos, width=0.9)
-    figure(grafico, width=600)
+    figure('aulas/img/campeoes_brasileiros.png', width=600)
     text('Brasília (UNB) conseguiu o 2º lugar em 1996')
 
 with slide('IESB nas Maratonas'):
@@ -92,13 +84,13 @@ with slide('IESB nas Maratonas'):
             ], width=600)
     text('UNB CIC e UNB FGA disputam a primeira posição todos os anos.')
 
-with slide('Juizes Online 01/02'):
+with slide('Juizes Online'):
     text("URI - Iniciantes")
     figure('aulas/img/uri.png', width=300)
     text("Codeforces - Intermediário/Avançado")
     figure('aulas/img/codeforces.png', width=300)
 
-with slide('Juizes Online 02/02'):
+with slide('Juizes Online'):
     text("Cada solução submetida ao juiz retornará um feedback sobre a solução")
     text("As linguagens aceitas na Maratona de Programação SBC são: C, C++, Java e Python")
     with group(x='auto', width=800) as g0:
@@ -108,7 +100,7 @@ with slide('Juizes Online 02/02'):
             figure('aulas/img/resposta_juiz_1.png', width=400)
     text("Imagens obtidas de https://github.com/edsomjr/TEP/", size=10, x=document._height*0.8)
 
-with slide('Entrada e Saída 01/05'):
+with slide('Entrada e Saída'):
     with group(x='center', y='auto', width=700) as g1:
         text("""A programação competitiva requer que os problemas sejam 
             solucionados lendo arquivos de entrada especificos e escrevendo a saída
@@ -122,26 +114,65 @@ with slide('Entrada e Saída 01/05'):
             'M casos do problema, até que acabe o arquivo (EOF)'    
         ], item_style='number')
 
-with slide('Entrada e Saída 02/05'):
-    # text("Categoria 1: Um único caso do problema")
-    # with group(x='auto', y='auto', height=300, width=300, background='#f0f0f5') as g2:
-    #     with group(background='#b3b3cc', width=300, height=50, y=g2.top) as g21:
-    #         text("Arquivo de Entrada")
-    #     with group(background='#f0f0f5') as g22:
-    #         text("X Y", x=g2.left, y=g2.top+60)
+with slide('Entrada e Saída'):
+    text("Categoria 1: Um único caso do problema")
+    with group(x='auto', y='auto', height=300, width=300, background='#f0f0f5') as g2:
+        with group(background='#b3b3cc', width=300, height=50, y=g2.top) as g21:
+            text("Arquivo de Entrada")
+        with group(background='#f0f0f5') as g22:
+            text("X Y", x=g2.left, y=g2.top+60)
 
-    # with group(x='auto', y=g2.top+0, height=300, width=300) as g3:
-    code("""
-    from pylab import *
+    with group(x='auto', y=g2.top+0, height=300, width=300) as g3:
+        code(open('aulas/aula01/entrada_tipo_1.py').read(), width=300)
 
-    n = range(10)
 
-    plot(n, n*random.rand(), 'ko')
+with slide('Entrada e Saída'):
+    text("Categoria 2: Varios casos informados no inicio.")
+    with group(x='auto', y='auto', height=300, width=300, background='#f0f0f5') as g2:
+        with group(background='#b3b3cc', width=300, height=50, y=g2.top) as g21:
+            text("Arquivo de Entrada")
+        with group(background='#f0f0f5') as g22:
+            text("QTD", x=g2.left, y=g2.top+60)
+            text("X Y", x=g2.left, y=g2.top+100)
 
-    for i in range(10):
-        print(i)
+    with group(x='auto', y=g2.top+0, height=300, width=300) as g3:
+        code(open('aulas/aula01/entrada_tipo_2.py').read(), width=300)
 
-    """, width=500)
 
-save('aulas/aula01/slide.html')
-# save('aulas/aula01/slide.pdf')
+with slide('Entrada e Saída'):
+    text("Categoria 2: Varios casos acabando com um valor.")
+    with group(x='auto', y='auto', height=300, width=300, background='#f0f0f5') as g2:
+        with group(background='#b3b3cc', width=300, height=50, y=g2.top) as g21:
+            text("Arquivo de Entrada")
+        with group(background='#f0f0f5') as g22:
+            text("X Y", x=g2.left, y=g2.top+40)
+            text("X Y", x=g2.left, y=g2.top+80)
+            text("X Y", x=g2.left, y=g2.top+120)
+            text("-1 -1", x=g2.left, y=g2.top+160)
+
+    with group(x='auto', y=g2.top+0, height=300, width=300) as g3:
+        code(open('aulas/aula01/entrada_tipo_3.py').read(), width=300)
+
+
+with slide('Entrada e Saída'):
+    text("Categoria 2: Varios casos até o fim de arquivo.")
+    with group(x='auto', y='auto', height=300, width=300, background='#f0f0f5') as g2:
+        with group(background='#b3b3cc', width=300, height=50, y=g2.top) as g21:
+            text("Arquivo de Entrada")
+        with group(background='#f0f0f5') as g22:
+            text("X Y", x=g2.left, y=g2.top+40)
+            text("X Y", x=g2.left, y=g2.top+80)
+            text("X Y", x=g2.left, y=g2.top+120)
+            text("X Y", x=g2.left, y=g2.top+160)
+
+    with group(x='auto', y=g2.top+0, height=300, width=300) as g3:
+        code(open('aulas/aula01/entrada_tipo_4.py').read(), width=300)
+
+with slide('Exercicios'):
+    text("UVA 100 - The 3n + 1 problem")
+
+with slide('Exercicios'):
+    text("UVA 100 - The 3n + 1 problem")
+    code(open('aulas/aula01/exercicios/uva_100.py').read(), width=500, size='20px')
+
+save('aulas/aula01/slide.pdf')

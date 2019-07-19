@@ -24,7 +24,12 @@ wheels/
 .installed.cfg
 *.egg
 MANIFEST
+
+# Beampy generated files
 .beampy_cache_slide/
+aulas/.beampy_cache_slide/
+aulas/aula01/tmp/
+aulas/img
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
