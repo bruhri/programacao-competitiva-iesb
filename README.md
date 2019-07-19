@@ -3,13 +3,13 @@ Repositório dedicado as aulas e maratonas dos cursos para programação competi
 
 ## Turma 01 - 2019.2
 
-### 24/07 - 19:00 as 21:00] 
-* [Slides](../master/aulas/aula01/slide.pdf)
-* Programação Competitiva
-* Juizes Eletrônicos
-* Fundamentos de Python
-* Tipos Primitivos / Encurtamento de Código
-* Estatégias de Treinameno
+### 24/07 - 19:00 as 21:00
+* [Aula 01](../master/aulas/aula01/slide.pdf)
+  * Programação Competitiva
+  * Juizes Eletrônicos
+  * Fundamentos de Python
+  * Tipos Primitivos / Encurtamento de Código
+  * Estatégias de Treinameno
 
 ### 25/07 - 19:00 as 21:00
 * Análise de Complexidade
