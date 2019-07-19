@@ -1,12 +1,3 @@
-"""
-ComplicatedBlue
-===============
-Redefine title page with new arguments and a page layout with add a progress
-bar and slide numbers.
-.. raw:: html
-   <iframe src="../_static/theme_html_outputs/complicatedblue.html" width="100%" height="500px"></iframe>
-"""
-
 import sys
 
 from beampy import *
