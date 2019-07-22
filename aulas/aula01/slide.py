@@ -159,11 +159,43 @@ with slide('Entrada e Saída'):
     with group(x='auto', y=g2.top+0, height=300, width=300) as g3:
         code(open('aulas/aula01/entrada_tipo_4.py').read(), width=300)
 
-with slide('Exercicios'):
-    text("UVA 100 - The 3n + 1 problem")
 
-with slide('Exercicios'):
-    text("UVA 100 - The 3n + 1 problem")
-    code(open('aulas/aula01/exercicios/uva_100.py').read(), width=500, size='20px')
+with slide("Categorização de problemas"):
+    itemize(
+        ['Ad-Hoc', 'Busca Completa', 'Dividir e Conquista', 'Gulosos', 'Prorgramação Dinâmica',
+        'Grafos', 'Matemática', 'Geometrica Computacional', 'Estrutura de Dados']
+    )
+
+with slide("Classificação Pessoal"):
+    itemize([
+        'A - Já resolvi um parecido e posso resolver de novo rapidamente',
+        'B - Já vi um parecido e sei que não consigo resolver',
+        'C - Nunca vi'
+    ])
+    text("Divida a classificação entre a equipe, deixe somente um, no máximo dois no computador")
+
+with slide("Execicios"):
+    text("https://codeforces.com/group/uZDbxesr6A/contests")
+
+with slide("Exercicios"):
+    text("A - Bit++")
+    code(open('aulas/aula01/exercicios/bit++.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("B - Beautiful Matrix")
+    code(open('aulas/aula01/exercicios/beautiful_matrix.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("C - Stones on the Table")
+    code(open('aulas/aula01/exercicios/stones_on_the_table.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("D - Word")
+    code(open('aulas/aula01/exercicios/word.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("E - Fox And Snake")
+    code(open('aulas/aula01/exercicios/fox_and_snake.py').read(), width=500, size='20px')
+
 
 save('aulas/aula01/slide.pdf')
