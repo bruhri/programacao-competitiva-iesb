@@ -161,18 +161,20 @@ with slide('Entrada e Saída'):
 
 
 with slide("Categorização de problemas"):
-    itemize(
-        ['Ad-Hoc', 'Busca Completa', 'Dividir e Conquista', 'Gulosos', 'Prorgramação Dinâmica',
-        'Grafos', 'Matemática', 'Geometrica Computacional', 'Estrutura de Dados']
-    )
+    with group(x='center', y='auto', width=700) as g1:
+        itemize(
+            ['Ad-Hoc', 'Busca Completa', 'Dividir e Conquista', 'Gulosos', 'Prorgramação Dinâmica',
+            'Grafos', 'Matemática', 'Geometrica Computacional', 'Estrutura de Dados']
+        )
 
 with slide("Classificação Pessoal"):
-    itemize([
-        'A - Já resolvi um parecido e posso resolver de novo rapidamente',
-        'B - Já vi um parecido e sei que não consigo resolver',
-        'C - Nunca vi'
-    ])
-    text("Divida a classificação entre a equipe, deixe somente um, no máximo dois no computador")
+    with group(x='center', y='auto', width=700) as g1:
+        itemize([
+            'A - Já resolvi um parecido e posso resolver de novo rapidamente',
+            'B - Já vi um parecido e sei que não consigo resolver',
+            'C - Nunca vi'
+        ])
+        text("Divida a classificação entre a equipe, deixe somente um, no máximo dois no computador")
 
 with slide("Execicios"):
     text("https://codeforces.com/group/uZDbxesr6A/contests")

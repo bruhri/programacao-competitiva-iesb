@@ -90,7 +90,7 @@ def theme_maketitle(lesson, author, date):
 
     with group(y="center"):
 
-        text(lesson, width=750, y=0, color=args['title_color'], size=args['title_size'], align='center')
+        text(lesson, width=750, y="+1cm", color=args['title_color'], size=args['title_size'], align='center')
         figure('aulas/img/logo_maratona.jpg', width=300, y="+3.5cm")
         text(author, width=750, y="+3.5cm", color=args['subtitle_color'], size=args['author_size'], align='center')
         text(date, width=750, y="+1cm", color=args['date_color'], size=args['date_size'])
