@@ -13,7 +13,7 @@ Repositório dedicado as aulas e maratonas dos cursos para programação competi
   * [Exercicios](../master/aulas/aula01/exercicios/lista.md)
 
 ### 25/07 - 19:00 as 21:00
-* [Aula 01](../master/aulas/aula02/slide.pdf)
+* [Aula 02](../master/aulas/aula02/slide.pdf)
   * Análise de Complexidade
   * Estruturas de Dados
   * Busca Binária

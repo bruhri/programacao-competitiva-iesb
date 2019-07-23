@@ -39,5 +39,25 @@ with slide("Dicionário"):
     with group(x='center', y='auto', width=500) as g1:
         code(open('aulas/aula02/dicionario.py').read(), width=500, size='20px')
 
+with slide("Exercicios"):
+    text("A - A and B and Compilation Errors")
+    code(open('aulas/aula02/exercicios/01.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("B - Snacktower")
+    code(open('aulas/aula02/exercicios/02.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("C - Sushi for Two")
+    code(open('aulas/aula02/exercicios/03.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("D - Sport Mafia")
+    code(open('aulas/aula02/exercicios/04.py').read(), width=500, size='20px')
+
+with slide("Exercicios"):
+    text("E - Planning The Expedition")
+    code(open('aulas/aula02/exercicios/05.py').read(), width=500, size='20px')
+
 
 save('aulas/aula02/slide.pdf')
