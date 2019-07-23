@@ -10,11 +10,14 @@ Repositório dedicado as aulas e maratonas dos cursos para programação competi
   * Fundamentos de Python
   * Tipos Primitivos / Encurtamento de Código
   * Estatégias de Treinameno
+  * [Exercicios](../master/aulas/aula01/exercicios/lista.md)
 
 ### 25/07 - 19:00 as 21:00
-* Análise de Complexidade
-* Estruturas de Dados
-* Busca Binária
+* [Aula 01](../master/aulas/aula02/slide.pdf)
+  * Análise de Complexidade
+  * Estruturas de Dados
+  * Busca Binária
+  * [Exercicios](../master/aulas/aula02/exercicios/lista.md)
 
 ### 26/07 - 19:00 as 21:00
 * Introdução a Teoria dos Grafos
