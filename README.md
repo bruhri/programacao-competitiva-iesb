@@ -1,6 +1,8 @@
 # Programação Competitiva IESB
 Repositório dedicado as aulas e maratonas dos cursos para programação competitiva.
 
+https://codeforces.com/group/uZDbxesr6A/contests
+
 ## Turma 01 - 2019.2
 
 ### 24/07 - 19:00 as 21:00
