@@ -30,6 +30,7 @@ MANIFEST
 aulas/.beampy_cache_slide/
 aulas/aula01/tmp/
 aulas/aula02/tmp/
+aulas/aula03/tmp/
 aulas/img
 
 # PyInstaller

@@ -1,4 +1,4 @@
-### Lista de Exercícios Aula 01
+### Lista de Exercícios Aula 02
 
 1. [A and B and Compilation Errors](https://codeforces.com/problemset/problem/519/B)
 2. [Snacktower](https://codeforces.com/problemset/problem/767/A)

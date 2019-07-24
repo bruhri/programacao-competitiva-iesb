@@ -20,13 +20,14 @@ Repositório dedicado as aulas e maratonas dos cursos para programação competi
   * [Exercicios](../master/aulas/aula02/exercicios/lista.md)
 
 ### 26/07 - 19:00 as 21:00
-* Introdução a Teoria dos Grafos
-* Busca em Largura
-* Dijkstra
-* Recursividade: Backtraking
+* [Aula 03](../master/aulas/aula03/slide.pdf)
+  * Introdução a Teoria dos Grafos
+  * Busca em Largura (BFS)
+  * Dijkstra
+  * [Exercicios](../master/aulas/aula03/exercicios/lista.md)
   
 ### 27/07 - 09:00 as 13:00
-* Algoritmos Gulosos
+* Recursividade: Backtraking
 * Delta Encoding e Two Pointers
 * Soma de Prefixos 1D
 * Soma de Prefixos 2D
