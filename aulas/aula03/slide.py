@@ -16,11 +16,11 @@ with slide("Lista de Adjacência"):
 with slide("Matriz de Adjacência"):
     code(open("aulas/aula03/matadj.py").read(), width=400, size='20px')
 
-# with slide("Grafo Direcionado"):
-#     code(open().read(), width=600)
+with slide("Grafo Direcionado"):
+    figure('aulas/img/grafo_direcionado.png', width=700)
 
-# with slide("Problema Simples"): QUANTAS LIGAÇÕES TEM X
-#     code(open().read(), width=600)
+with slide("Problema Simples"):
+    code(open("aulas/aula03/exemplo01.py").read(), width=400, size='20px')
 
 # with slide("BFS"):
 #     code(open().read(), width=600)
