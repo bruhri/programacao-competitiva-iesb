@@ -2,31 +2,32 @@
 
 | Handle           | Problemas | Tempo |
 | ---------------- | --------- | ----- |
-| delary           |         0 |     0 |
-| marciodark77     |         0 |     0 |
-| sancho41         |         0 |     0 |
-| gabriel.assunsas |         0 |     0 |
-| ricardolew       |         0 |     0 |
-| ebiacsan         |         0 |     0 |
-| kuraigus         |         0 |     0 |
-| buenos           |         0 |     0 |
-| gauderia         |         0 |     0 |
-| arealnemexis     |         0 |     0 |
-| catlangos_araujo |         0 |     0 |
-| yassunaga        |         0 |     0 |
-| bruhri           |         0 |     0 |
-| sv.thiago        |         0 |     0 |
+| delary           |         05 |    138 |
+| sancho41         |         05 |    138 |
+| buenos           |         05 |    150 |
+| catlangos_araujo |         05 |    150 |
+| ricardolew       |         03 |    118 |
+| ebiacsan         |         03 |    118 |
+| arealnemexis     |         03 |    131 |
+| sv.thiago        |         03 |    131 |
+| kuraigus         |         03 |    153 |
+| yassunaga        |         03 |    153 |
+| marciodark77     |         01 |    030 |
+| bruhri           |         01 |    030 |
+| gabriel.assunsas |         00 |    000 |
+| gauderia         |         00 |    000 |
+
 
 ## Rounds
 
 ### Round 01
 
-1. marciodark77 e bruhri
-2. sv.thiago e arealnemexis
-3. delary e sancho41
-4. ebiacsan e ricardolew
-6. buenos e catlangos_araujo
-7. kuraigus e yassunaga
+1. marciodark77 e bruhri - 01 | 30
+2. sv.thiago e arealnemexis - 03 | 131
+3. delary e sancho41 - 05 | 138
+4. ebiacsan e ricardolew - 03 | 118
+6. buenos e catlangos_araujo - 05 | 150
+7. kuraigus e yassunaga - 03 | 153
 
 
 ### Round 02
