@@ -21,40 +21,35 @@ https://codeforces.com/group/uZDbxesr6A/contests
   * Busca Binária
   * [Exercicios](../master/aulas/aula02/exercicios/lista.md)
 
-### 26/07 - 19:00 as 21:00
+### 29/07 - 19:00 as 21:00
 * [Aula 03](../master/aulas/aula03/slide.pdf)
   * Introdução a Teoria dos Grafos
   * Busca em Largura (BFS)
   * [Exercicios](../master/aulas/aula03/exercicios/lista.md)
   
-### 29/07 - 19:00 as 21:00
-* Recursividade: Backtraking
+### 30/07 - 19:00 as 21:00
 * Delta Encoding e Two Pointers
 * Soma de Prefixos 1D
 * Soma de Prefixos 2D
 
-### 30/07 - 19:00 as 21:00
+### 31/07 - 19:00 as 21:00
 * Introdução a Programação Dinâmica
 * Problema da Moeda
 * Maior subsequencia crescente
 * Caminhos no Grid
 
-### 31/07 - 19:00 as 21:00
+### 10/08 - 19:00 as 21:00
 * Divisibilidade
 * Numeros Primos
 * Aritimética Modular
 
-### 10/08 - 11:00 as 13:00
-* SegTree
-* Contest 03
-
 ### 17/08 - 11:00 as 13:00
-* Dijkstra
-* Contest 04
+* Contest Classificatório
 
 ### 24/08 - 11:00 as 13:00
+* SegTree
 * BIT
-* Contest 05
 
 ### 31/08 - 11:00 as 13:00
-* Contest 06
+* Dijkstra
+* Recursividade: Backtraking
