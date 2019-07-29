@@ -22,13 +22,11 @@
 
 ### Round 03
 
-1. catlangos_araujo e marciodark77
-2. delary e kuraigus
-3. buenos e ebiacsan
-4. yassunaga e bruhri
-5. ricardolew e gabriel.assunsas
-6. sancho41 e gauderia
-7. sv.thiago e arealnemexis
+1. catlangos_araujo e sancho41
+2. buenos e kuraigus
+3. yassunaga e bruhri
+4. ricardolew e gabriel.assunsas
+5. sv.thiago e arealnemexis
 
 ### Round 02
 
