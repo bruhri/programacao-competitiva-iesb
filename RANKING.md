@@ -10,9 +10,9 @@
 | ricardolew       |         04 |    148 |*
 | kuraigus         |         04 |    175 |-
 | ebiacsan         |         03 |    118 |-
-| arealnemexis     |         03 |    131 |
+| arealnemexis     |         03 |    131 |*
 | sv.thiago        |         03 |    131 |!
-| bruhri           |         03 |    392 |
+| bruhri           |         03 |    392 |*
 | marciodark77     |         02 |    042 |
 | gabriel.assunsas |         02 |    460 |*
 | gauderia         |         00 |    000 |
