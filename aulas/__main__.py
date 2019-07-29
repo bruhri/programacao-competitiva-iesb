@@ -16,5 +16,5 @@ grafo_simples()
 # os.system(f'cp aulas/maratonaiesb_theme.py {theme_path}')
 
 # os.system('python3 aulas/aula01/slide.py')
-# os.system('python3 aulas/aula02/slide.py')
-os.system('python3 aulas/aula03/slide.py')
+os.system('python3 aulas/aula02/slide.py')
+# os.system('python3 aulas/aula03/slide.py')
