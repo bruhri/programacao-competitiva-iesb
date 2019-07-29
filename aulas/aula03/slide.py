@@ -77,6 +77,10 @@ with slide("Exercicios"):
     code(open("aulas/aula03/exercicios/maximum_in_table.py").read(), width=400, size='20px')
 
 with slide("Exercicios"):
+    text("B - Prison Transfer")
+    code(open("aulas/aula03/exercicios/maximum_in_table.py").read(), width=400, size='20px')
+
+with slide("Exercicios"):
     text("C - Metro")
     code("""
     from collections import deque
@@ -141,6 +145,9 @@ with slide("Exercicios"):
     text("D - Love Triangle")
     code(open("aulas/aula03/exercicios/love_triangle.py").read(), width=400, size='20px')
 
+with slide("Exercicios"):
+    text("E - Two Buttons")
+    code(open("aulas/aula03/exercicios/two_buttons.py").read(), width=400, size='20px')
 
 
 save('aulas/aula03/slide.pdf')
