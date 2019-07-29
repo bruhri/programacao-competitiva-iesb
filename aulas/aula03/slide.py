@@ -16,24 +16,61 @@ with slide("Lista de Adjacência"):
 with slide("Matriz de Adjacência"):
     code(open("aulas/aula03/matadj.py").read(), width=400, size='20px')
 
-# with slide("Grafo Direcionado"):
-#     code(open().read(), width=600)
+with slide("Grafo Direcionado"):
+    figure('aulas/img/grafo_direcionado.png', width=700)
 
-# with slide("Problema Simples"): QUANTAS LIGAÇÕES TEM X
-#     code(open().read(), width=600)
+with slide("Problema Simples"):
+    code(open("aulas/aula03/exemplo01.py").read(), width=400, size='20px')
 
-# with slide("BFS"):
-#     code(open().read(), width=600)
+with slide("BFS"):
+    figure('aulas/img/grafo_simples.png', width=700)
 
-# with slide("Problema Simples"): É POSSIVEL CHEGAR DE Y A Z?
-#     code(open().read(), width=600)
+with slide("BFS"):
+    code("""
+    from collections import deque
 
-# with slide("Dijkstra"):
-#     code(open().read(), width=600)
+    def initialize(dist, graph):
+        for i in range(verticies):
+            dist[i] = -1
 
-# with slide("Problema Simples"): QUAL MENOR DISTÂNCIA DE Y A Z?
-#     code(open().read(), width=600)
+        for i in range(verticies):
+            graph[i] = set()
+    """, width=500, size='5px')
 
+with slide("BFS"):
+    code("""
+    def populate(graph, arestas, bi=False):
+        for _ in range(arestas):
+            v, w = map(int, input().split())
+            graph[v].add(w)
+            if bi:
+                graph[w].add(v)
+    """, width=500, size='5px')
+
+with slide("BFS"):
+    code("""
+    def bfs(start, graph, dist):
+	fila = deque()
+	dist[start] = 0
+	fila.append(start)
+	while fila:
+		v = fila.popleft()
+		for w in graph[v]:
+			if dist[i] == -1:
+				dist[w] = dist[v] + 1
+				fila.append(w)
+    """, width=500, size='5px')
+
+with slide("BFS"):
+    code("""
+    graph, dist = dict(), dict()
+    initialize(dist, graph)
+    verticies, arestas = map(int, input().split())
+    populate(graph, arestas)
+
+    bfs(0)
+    print(dist)
+    """, width=500, size='5px')
 
 # with slide("Exercicios"):
 #     text("A - A and B and Compilation Errors")

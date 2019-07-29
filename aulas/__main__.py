@@ -1,7 +1,7 @@
 import os
 import webbrowser
 from aula01.graficos import campeoes_brasileiros, campeoes_mudiais
-from aula03.graficos import grafo_simples
+from aula03.graficos import grafo_simples, grafo_direcionado
 
 os.system('rm -r .beampy_cache_slide')
 
@@ -11,7 +11,8 @@ os.system('rm -r .beampy_cache_slide')
 
 # campeoes_brasileiros()
 # campeoes_mudiais()
-grafo_simples()
+# grafo_simples()
+# grafo_direcionado()
 
 # os.system(f'cp aulas/maratonaiesb_theme.py {theme_path}')
 
