@@ -72,9 +72,74 @@ with slide("BFS"):
     print(dist)
     """, width=500, size='5px')
 
-# with slide("Exercicios"):
-#     text("A - A and B and Compilation Errors")
-#     code(open('aulas/aula02/exercicios/01.py').read(), width=500, size='20px')
+with slide("Exercicios"):
+    text("A - Maximum in Table")
+    code(open("aulas/aula03/exercicios/maximum_in_table.py").read(), width=400, size='20px')
+
+with slide("Exercicios"):
+    text("C - Metro")
+    code("""
+    from collections import deque
+
+    def initialize(dist, graph, vertices):
+        for i in range(vertices):
+            dist[i] = -1
+
+        for i in range(vertices):
+            graph[i] = set()
+    """, width=500, size='20px')
+
+
+with slide("Exercicios"):
+    text("C - Metro")
+    code("""
+    def bfs(start, graph, dist):
+        fila = deque()
+        dist[start] = 0
+        fila.append(start)
+        while fila:
+            v = fila.popleft()
+            for w in graph[v]:
+                if dist[w] == -1:
+                    dist[w] = dist[v] + 1
+                    fila.append(w)
+    """, width=500, size='20px')
+
+
+with slide("Exercicios"):
+    text("C - Metro")
+    code("""
+    graph, dist = dict(), dict()
+    vertices, final = map(int, input().split())
+    initialize(dist, graph, vertices)
+
+    # ida
+    estacoes = list(map(int, input().split()))
+    for i in range(vertices):
+        for j in range(i+1, vertices):
+            if estacoes[i] == 1 and estacoes[j] == 1:
+                graph[i].add(j)
+    """, width=500, size='20px')
+
+
+with slide("Exercicios"):
+    text("C - Metro")
+    code("""
+    # volta
+    estacoes = list(map(int, input().split()))
+    for i in range(vertices-1, -1, -1):
+        for j in range(i-1, -1, -1):
+            if estacoes[i] == 1 and estacoes[j] == 1:
+                graph[i].add(j)
+
+    bfs(0, graph, dist)
+    print('NO' if dist[final-1] == -1 else 'YES')
+    """, width=500, size='20px')
+
+
+with slide("Exercicios"):
+    text("D - Love Triangle")
+    code(open("aulas/aula03/exercicios/love_triangle.py").read(), width=400, size='20px')
 
 
 
