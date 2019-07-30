@@ -22,13 +22,10 @@
 
 ### Round 04
 
-1. 
-2.
-3.
-4.
-5.
-6.
-7.
+1. buenos e bruhri
+2. sv.thiago e ebiacsan
+3. arealnemexis e gabriel.assunsas
+4. kuraigus e sancho41
 
 ### Round 03
 
