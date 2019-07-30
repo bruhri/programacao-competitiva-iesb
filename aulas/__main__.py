@@ -11,11 +11,12 @@ os.system('rm -r .beampy_cache_slide')
 
 # campeoes_brasileiros()
 # campeoes_mudiais()
-grafo_simples()
-grafo_direcionado()
+# grafo_simples()
+# grafo_direcionado()
 
 # os.system(f'cp aulas/maratonaiesb_theme.py {theme_path}')
 
 # os.system('python3 aulas/aula01/slide.py')
 # os.system('python3 aulas/aula02/slide.py')
-os.system('python3 aulas/aula03/slide.py')
+# os.system('python3 aulas/aula03/slide.py')
+os.system('python3 aulas/aula04/slide.py')

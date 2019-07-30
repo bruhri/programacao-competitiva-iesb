@@ -28,7 +28,6 @@ https://codeforces.com/group/uZDbxesr6A/contests
   * [Exercicios](../master/aulas/aula03/exercicios/lista.md)
   
 ### 30/07 - 19:00 as 21:00
-* Delta Encoding e Two Pointers
 * Soma de Prefixos 1D
 * Soma de Prefixos 2D
 
@@ -51,5 +50,6 @@ https://codeforces.com/group/uZDbxesr6A/contests
 * BIT
 
 ### 31/08 - 11:00 as 13:00
+* Delta Encoding e Two Pointers
 * Dijkstra
 * Recursividade: Backtraking

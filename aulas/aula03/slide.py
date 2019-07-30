@@ -5,7 +5,7 @@ from beampy import *
 doc = document(theme="maratonaiesb")
 
 with slide():
-    maketitle(lesson='Aula 03', author='Rodrigo G. Araújo',  date='26/07/2019')
+    maketitle(lesson='Aula 03', author='Rodrigo G. Araújo',  date='29/07/2019')
 
 with slide("Introdução a Teoria dos Grafos"):
     figure('aulas/img/grafo_simples.png', width=700)
@@ -78,7 +78,7 @@ with slide("Exercicios"):
 
 with slide("Exercicios"):
     text("B - Prison Transfer")
-    code(open("aulas/aula03/exercicios/maximum_in_table.py").read(), width=400, size='20px')
+    code(open("aulas/aula03/exercicios/prison_transfer.py").read(), width=400, size='20px')
 
 with slide("Exercicios"):
     text("C - Metro")
