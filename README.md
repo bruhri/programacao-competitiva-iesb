@@ -28,21 +28,19 @@ https://codeforces.com/group/uZDbxesr6A/contests
   * [Exercicios](../master/aulas/aula03/exercicios/lista.md)
   
 ### 30/07 - 19:00 as 21:00
-* [Aula 04](../master/aulas/aula04/slide.pdf)
-  * Two Pointers
-  * Soma de Prefixos 1D
   * [Exercicios](../master/aulas/aula04/exercicios/lista.md)
 
 ### 31/07 - 19:00 as 21:00
+* [Aula 05](../master/aulas/aula05/slide.pdf)
+  * Two Pointers
+  * Soma de Prefixos 1D
+  * Soma de Prefixos 2D
+
+### 10/08 - 19:00 as 21:00
 * Introdução a Programação Dinâmica
 * Problema da Moeda
 * Maior subsequencia crescente
 * Caminhos no Grid
-
-### 10/08 - 19:00 as 21:00
-* Divisibilidade
-* Numeros Primos
-* Aritimética Modular
 
 ### 17/08 - 11:00 as 13:00
 * Contest Classificatório
@@ -50,8 +48,9 @@ https://codeforces.com/group/uZDbxesr6A/contests
 ### 24/08 - 11:00 as 13:00
 * SegTree
 * BIT
+* Dijkstra
 
 ### 31/08 - 11:00 as 13:00
-* Delta Encoding e Soma de Prefixo 2D
-* Dijkstra
-* Recursividade: Backtraking
+* Divisibilidade
+* Numeros Primos
+* Aritimética Modular
