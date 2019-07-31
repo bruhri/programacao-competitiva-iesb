@@ -31,12 +31,11 @@ https://codeforces.com/group/uZDbxesr6A/contests
   * [Exercicios](../master/aulas/aula04/exercicios/lista.md)
 
 ### 31/07 - 19:00 as 21:00
-* [Aula 05](../master/aulas/aula05/slide.pdf)
+* [Exercicios](../master/aulas/aula05/exercicios/lista.md)
   * Two Pointers
   * Soma de Prefixos 1D
-  * Soma de Prefixos 2D
 
-### 10/08 - 19:00 as 21:00
+### 10/08 - 11:00 as 13:00
 * Introdução a Programação Dinâmica
 * Problema da Moeda
 * Maior subsequencia crescente
