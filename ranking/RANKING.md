@@ -20,6 +20,13 @@
 
 ## Rounds
 
+### Round 05
+
+1. lucasm e sancho41
+2. ebiacsan e yassunaga
+3. buenos e arealnemexis
+4. kuraigus e bruhri
+
 ### Round 04
 
 1. buenos e bruhri
